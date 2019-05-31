@@ -11,7 +11,7 @@ console.log("When validation(pn,cc) is called")
 
 var validated = validation(phoneNumber,countryCode)
 
-"Then true is returned"
+console.log("Then true is returned")
 
 expect(validated).to.be.a('boolean')
 
