@@ -14,6 +14,6 @@ var validated = validation(phoneNumber,countryCode)
 console.log("Then true is returned")
 
 expect(validated).to.be.a('boolean')
-
+console.log(validated)
 
 
